@@ -1,6 +1,6 @@
 #foto_me{
     width:600px;
-    margin-left: 0px;
+    margin-left: 150px;
     text-align: left;
     
 }
@@ -26,8 +26,8 @@ td, th{
 
 #atributos{
     text-align: center;
-    margin-top: 0px ;
-    margin-left: 0px;
+    margin-top: 10px ;
+    margin-left: 180px;
     color: darkslategrey;
 }
 
