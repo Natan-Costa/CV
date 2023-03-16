@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My webpage</title>
-</head>
-<body>
-    <table id="tabela de cabeçalho">
-        <tr>
-            <td><img src="images/foto_site_pessoal.png" id="foto_me"></td>
-            <td>
-                <h1 id="Name">Natan Costa</h1>
-                <p class="Head">Analista de Sistemas</p>
-                <p class="Head">Deselvolvedor Web</p>
-                <p class="Head">Em busca de oportunidades</p>
-                <p class="Head"><a href="https://github.com/Natan-Costa">Github Natan Costa</a></p>
-            </td>       
-        </tr>
-    </table>
-    <hr>
-    </main>
-        <div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Natan Costa</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css"\>
+        <link rel="icon" href="Images/favicon.ico"\>
+    </head>
+    <body>
+        <main>
+            <div id="top-container">
+            <table cellspacing="20">
+                <tr>
+                    <td><img src="images/Image_cv_natan.png" alt="" id="foto_me"></td>
+                    <td><h1 id="head-h1">Natan Costa</h1>
+                    <p>Deselvolvedor Web &#129489;&#127995;&#8205;&#128187;</p>
+                    <p>Em busca de oportunidades</p>
+                    <p><a href="https://github.com/Natan-Costa">Github Natan Costa</a></p></td>
+                </tr>
+            </table>
+        <hr>
+        </div>
+        <div id="middle-container">    
             <h2>Formação</h2>
             <table >
                 <thead>
@@ -44,10 +44,11 @@
                 </tbody>
             </table>
         </div>
+        <div id="Skills">
             <hr>
                 <h2>Skills</h2>
                 <table id="table_skills">
-                    <thead class="Cabeçalho Skills">
+                    <thead>
                         <th></th>
                     </thead>
                     <tbody>
@@ -73,7 +74,13 @@
                     </tbody>
                 </table>
             <hr>
-    
-        <p><a href="contact-me.html">Meus contatos</a></p>
+            </div>    
+        </main>       
+        <section>   
+            <footer>
+                <p><a rel="contact-me" href="contact-me.html">Meus contatos</a></p>
+            </footer>
+        </section>
+        <script src="script/script.js"></script>
     </body>
 </html>
