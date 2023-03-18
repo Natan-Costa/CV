@@ -17,12 +17,12 @@ tr{
 #top-container{
     background-color: black;
     background-image: url("background-head.png");
-    /*max-width: 100%;
+    max-width: 100%;
     max-height: 100%;
     height: auto;
-    width: auto;*/
-    height: 80%;
-    width: 100%;
+    width: auto;
+    /*height: 80%;
+    width: 100%;*/
     margin: 0;
 }
 
